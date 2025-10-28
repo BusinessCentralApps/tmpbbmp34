@@ -30,7 +30,7 @@ jobs:
           lfs: true
 
       - name: Troubleshooting
-        uses: microsoft/AL-Go/Actions/Troubleshooting@13868260bf008b56d26fd739c1f764b2bb2c8239
+        uses: microsoft/AL-Go/Actions/Troubleshooting@aefefe4faa4833e44b1e4405e72050e7e819b3a9
         with:
           shell: powershell
           gitHubSecrets: ${{ toJson(secrets) }}
